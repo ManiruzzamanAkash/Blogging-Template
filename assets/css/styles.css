@@ -1,0 +1,461 @@
+/***
+
+Name : Css for two sidebar blog template using bootstrap
+Author : Maniruzzaman Akash<manirujjamanakash@gmail.com>
+Created at : 24 March 2017
+
+Licence :
+The css is written by me and this is free for you. You can use it in your personal work or professional work.
+In this case I've  overriden some bootstrap classes. Sorry, for some messy code here.
+
+***/
+
+/****
+Basic color ->  Yellow Template
+--------------------------------------
+Navbar, button, deep yellow : #A86A00;
+light yellow : #EE9600;
+body yellow : #FFF9EF;
+****/
+
+body{
+ background: #FFF9EF;
+}
+a{
+    color: #00BCD4;
+    webkit-transition: all 1s;
+    transition: all 1s;
+}
+a:hover, input[type="submit"]:hover{
+    color: #2196F3;
+    webkit-transition: all 1s;
+    transition: all 1s;
+    text-decoration: none;
+}
+
+.logo_image {
+    width: 50px;
+    height: 50px;
+    margin-top: -15px;
+}
+.blog-header {
+    margin-top: 5%;
+}
+.blog-header h1 a {
+    color: #A86A00
+    ;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px rgba(0, 128, 0, 0.19);
+}
+.blog-header h1 a:hover{
+    color: #00BCD4;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.navbar{
+ background: #EE9600;
+ border-radius: 0px;
+}
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #EEEEEE;
+    font-weight: bold;
+}
+.navbar-nav>li>a:hover{
+ background: #A86A00;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background: #A86A00;
+}
+.navbar-toggle .icon-bar {
+    background: #FFF;
+}
+.navbar-toggle {
+    background-color: #A86A00;
+}
+.navbar-toggle:hover {
+    background-color: #5a1817;
+}
+.dropdown-menu {
+    background-color: #EE9600;
+    -webkit-background-clip: padding-box;
+    border-radius: 0px;
+}
+.dropdown-menu>li>a {
+    padding: 12px 20px;
+    color: #f5f5f5;
+    font-weight: bold;
+}
+/*** Search bar input animation ****/
+.input-animation {
+    /*-webkit-transition: width 0.4s;*/
+    width: 100px;
+    transition: width 0.4s ;
+}
+.input-animation:hover, .input-animation:focus{
+    width: 300px;
+    opacity: 1;
+    background: #FFF;
+}
+.search-bar-top {
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    opacity: 0;
+}
+/*** Search bar input animation ****/
+
+/** Carousal styling ***/
+.carousel-indicators .active{
+    background: #EE9600;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000\9;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.caroseL-border{
+    border-radius: 50px;
+    background: #EE9600
+    ;
+    font-size: 29px;
+    color: #5bc0de;
+}
+/** Carousal styling ***/
+
+.page-header{
+    color: #A86A00
+    ;
+    font-family: cursive;
+}
+
+
+/*** Main page ***/
+.blog-main {
+    /*background: rgb(224, 226, 223);*/
+}
+.blog-post{
+    box-shadow: 1px 4px 4px 0px rgba(0, 0, 0, .5);
+}
+.blog-post:hover {
+    background: rgba(76, 175, 80, 0);
+}
+.blog-post-title a{
+
+    color: #00BCD4;
+    webkit-transition: all 1s;
+    transition: all 1s;
+}
+.blog-post-title a:hover{
+    color: #A86A00;
+    webkit-transition: all 1s;
+    transition: all 1s;
+    text-decoration: none;
+    font-weight: normal;
+}
+#post-first-letter {
+    font-size: 45px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #EE9600
+    ;
+    font-weight: bold;
+}
+.img-blog-post {
+    width: 50%;
+    max-width: 300px;
+
+}
+
+
+/*** Sidebar ***/
+.blog-sidebar{
+    box-shadow: 1px 4px 4px 0px rgba(0, 0, 0, .5);
+}
+.sidebar-module h4 {
+    background: #EE9600
+    ;
+    padding: 20px;
+    color: #FFFFFF;
+    margin-left: -6%;
+    margin-right: -6%;
+    margin-top: 5%;
+}
+.sidebar-module img {
+    width: 70px;
+}
+.sidebar-module img {
+    width: 100px;
+}
+.text-mute-sm{
+ font-size: 11px;
+}
+.popular-post .media{
+   padding: 10px;
+   border-bottom: 1px solid gray;
+   webkit-transition: all 1s;
+   transition: all 1s;
+}
+.popular-post .media:hover{
+	background: rgba(99, 202, 103, 0.5);
+	
+}
+.popular-post .media:hover a:hover{
+	text-decoration: none;
+}
+.media {
+ margin-top: 0px;
+}
+.media-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.tags{
+
+}
+.tags .nav-pills>li>a {
+    border-radius: 4px;
+    background: rgba(238, 150, 0, 0.5);
+    opacity: 0.8;
+    padding: 3px;
+    margin: 2px;
+    color: #993313;
+}
+.tags .nav-pills>li>a:hover{
+    opacity: 1;
+}
+.categories-sidebar .list-group-item {
+    position: relative;
+    display: block;
+    padding: 5px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    color: #EE9600;
+}
+.categories-sidebar .list-group-item-sub {
+    position: relative;
+    display: block;
+    padding: 5px 15px;
+    margin-bottom: -1px;
+    padding-left: 10%;
+    background-color: rgba(76, 175, 80, 0.47);
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    color: rgb(90, 24, 23);
+}
+.categories-sidebar .list-group-item-has-sub {
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.categories-sidebar .list-group-item:hover {
+    background: rgba(99, 202, 103, 0.5);
+    color: #000;
+}
+.list-unstyled li{
+    margin-top: 1px;
+}
+.list-unstyled li:hover{
+    background: rgba(76, 175, 80, 0.47);
+    color: #000;
+}
+
+
+/**** Side social bar ****/
+.side-social-bar{
+    position: fixed;
+    bottom: 30%;
+    left: 0px;
+}
+.list-style {
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.side-social-bar .fa{
+    color: #FFF;
+}
+.animated-style-social{
+    transition: width 0.4s ;
+    webkit-transition: all 1s;
+    transition: all 1s;
+}
+.animated-style-social:hover{
+    width: 70px;
+    transition: width 0.4s ;
+}
+.facebook-style{
+    background: #03A9F4;
+    opacity: 0.4;
+}
+.facebook-style:hover{
+    opacity: 1;
+}
+
+.twitter-style{
+    background: #55ACEE;
+    opacity: 0.4;
+}
+.twitter-style:hover{
+    opacity: 1;
+}
+.pinterest-style{
+    background: #BE0032;
+    opacity: 0.4;
+}
+.pinterest-style:hover{
+    opacity: 1;
+}
+.dribble-style{
+    background: #F3C300;
+    opacity: 0.4;
+}
+
+.dribble-style:hover{
+    opacity: 1;
+}
+.google-plus-style{
+    background: #DD4B39;
+    opacity: 0.4;
+}
+.google-plus-style:hover{
+    opacity: 1;
+}
+.linkedin-style{
+    background: #009CFF;
+    opacity: 0.4;
+}
+.linkedin-style:hover{
+    opacity: 1;
+}
+/**** Side social bar ****/
+
+
+
+
+
+
+
+.footer-top {
+    background: #37474F;
+    color: #FFF;
+    padding: 20px;
+}
+.footer-top a {
+    color: #EE9600
+    ;
+}
+.footer-top a:hover {
+    color: #FFF;
+}
+footer.blog-footer {
+    background: #A86A00
+    ;
+    padding: 20px;
+    color: #FFF;
+}
+
+#totop {
+    background: #37474f;
+    border-radius: 50px;
+    border: 1px solid #00bccf;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#totop:hover {
+    background: #37474f;
+    border-radius: 50px;
+    border: 1px solid #00bccf;
+    color: #FFF;
+}
+.active {
+    background: #A86A00
+    ;
+}
+.hover-active{
+    background: #EE9600
+    ;
+    opacity: 0.6;
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+.btn:hover {
+    box-shadow: 5px 4px 12px 5px rgba(0, 128, 0, 0.41);
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.form-control {
+    border-radius: 0px;
+    padding: 20px;
+    border: 1px solid rgba(76, 175, 80, 0.49);
+    font-size: 17px;
+    max-width: 100%;
+    color: #263238;
+}
+.btn {
+    border-radius: 0px;
+    border: 1px solid #EE9600
+    ;
+}
+
+.pager li>a, .pager li>span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #EE9600
+    ;
+    border: 1px solid #7c2121;
+    border-radius: 15px;
+    color: white;
+    opacity: 0.6
+}
+.pager li>a:hover{
+    background-color: #EE9600
+    ;
+    opacity: 1;
+}
+.form-control:focus, .form-control:hover{
+    border: 1px solid #EE9600;
+}
+@media only screen and (max-width: 840px) {
+    .blog-header {
+        margin-top: 15%;
+    }
+    .side-social-bar{
+        display: none;
+    }
+}
+
+
+/** Post single **/
+.single-comment {
+    border-bottom: 1px solid gray;
+    background: rgba(128, 128, 128, 0.08);
+    padding: 10px;
+}
+.reply-comment {
+    padding-left: 10%;
+}
+/** Post single **/
