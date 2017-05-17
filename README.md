@@ -12,5 +12,6 @@ In this free blogging template after clicking any post <a href="#">See More</a> 
 <img style="padding:20px; border: 1px solid yellow" src="https://3.bp.blogspot.com/-iF-BQxWbrng/WOrbLAYSnpI/AAAAAAAADv8/KsSa4w4TzggV0-bBkM5YtKOGKAC_yuLVQCK4B/s1600/one_sidebar_yellow-single-blog-post-page.jpg"/>
 
 <br />
+I have also added a simple contact page for your blog with some nice bootstrap toasting. Hope you like this - this is in this  https://github.com/ManiruzzamanAkash/Blogging-Template/blob/master/contact_one_yellow.html link.<br />
 
 <strong>License Issue: </strong>You can use this blogging template in your university project or in any template, their is no restriction here. I want to help people, who are really looking for help.
